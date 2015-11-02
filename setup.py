@@ -59,7 +59,7 @@ classifiers = [
 setup(
   name                  = 'pyramid_armor',
   version               = read('VERSION.txt', default='0.0.1').strip(),
-  description           = 'A Pyramid tween that normalizes HTTP request armor data.',
+  description           = 'Pyramid helpers for data validation, sanitization, and documentation.',
   long_description      = read('README.rst'),
   classifiers           = classifiers,
   author                = 'Canary Health Inc',
